@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!--Linkando o cdnjs para os icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <!--Linkando a fonte do Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!--Linkando o bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--Linkando a CSS-->
+    <link rel="stylesheet" href="./RM550303_css/RM550303.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Nome da Página-->
+    <title>Fintech Banco</title>
+</head>
+
+<body>
+    <!--Linkando o bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!--Div mostrando a tela de entrada no MOBILE-->
+    <div class="cabeca">
+        <h2>Entrar</h2>
+    </div>
+
+    <!--Setando o main login-->
+    <div class="main-login">
+
+        <!--Setando os dois lados do login (ESQUERDA)-->
+        <div class="left-login">
+            <h1>Olá usuário! Seja muito bem vindo!</h1>
+            <h3>Insira seus dados e prossiga:</h3>
+            <img src="time_unido.svg" alt="grupo unido para levantar uma economia">
+        </div>
+
+        <!--Setando os dois lados do login (DIREITA)-->
+        <div class="right-login">
+
+            <!--Cards de login-->
+            <div class="card-login">
+
+                <!--Usuário e senha-->
+                <div class="textfield">
+                    <label for="usuario">Nome do usuário:</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+
+                <div class="esqueci">
+                    <p><a href="#" class="link-dark">Esqueceu sua senha?</a></p>
+                
+                </div>
+
+                <!--Botão de acesso-->
+                <button class="btn-login">Entrar</button>
+
+                <!--link para o cadastro-->
+                <div class="primeira-vez">
+                    <p>Primeira vez?</p><a class="clicavel" href="#">
+                        <h4>Cadastre-se aqui!</h4>
+                    </a>
+                </div>
+
+                <!--Entradas alternativas-->
+                <div class="entrada-alt">
+                    <h5>Entre também com:</h5>
+                </div>
+                <div class="login-alt-card">
+                    <a href="#">
+                        <img src="./RM550303_img/7089163_gmail_google_icon.png" alt="gmail icone">
+                    </a>
+    
+                    <a href="#">
+                        <img src="./RM550303_img/104498_facebook_icon.png" alt="facebook icone">
+                    </a>
+    
+                    <a href="#">
+                        <img src="./RM550303_img/5296514_bird_tweet_twitter_twitter logo_icon.png" alt="twitter icone">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
